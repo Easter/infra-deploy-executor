@@ -1,0 +1,36 @@
+{
+    "provider": {
+        "user_name": "",
+        "password": "",
+        "tenant_name": "",
+        "auth_url": "",
+        "region": ""
+    },
+    "instance": {
+        "name": ""
+    },
+    "instance_flavor": {
+        "name": "", 
+        "ram": "MB",
+        "vcpus": "",
+        "disk": "GB",
+        "swap": "GB",
+        "is_pudlic": "true/false"
+    },
+    "network": {
+        "name": "",
+        "admin_state_up": "true/false"
+    },
+    "subnet": {
+        "name": "",
+        "cidr": "",
+        "ip_version": ""
+    },
+    "image": {
+        "name": "",
+        "disk_format": "",
+        "container_format": "",
+        "visibility": "",
+        "local_file_path": ""
+    }
+}

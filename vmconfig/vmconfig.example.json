@@ -1,0 +1,46 @@
+{
+    "provider": {
+        "user_name": "admin",
+        "password": "qwer123456",
+        "tenant_name": "admin",
+        "auth_url": "http://10.41.1000.243:5000/v3",
+        "region": "RegionOne"
+    },
+    "instance": {
+        "name": "k8s-host",
+        "num": "2"
+    },
+    "instance_flavor": {
+        "name": "k8s-host-flavor", 
+        "ram": "8192",
+        "vcpus": "4",
+        "disk": "128",
+        "is_pudlic": "true"
+    },
+    "network": {
+        "name": "openstack-net",
+        "admin_state_up": "true"
+    },
+    "subnet": {
+        "subnet_name": "openstack-net-subnet",
+        "cidr": "192.168.1.0/24",
+        "ip_version": "4",
+        "gateway_ip": "192.168.1.254",
+        "dhcp_enable": "true"
+    },
+    "external_network": {
+        "name": "",
+        "admin_state_up": "",
+        "external": "",
+        "shared": "",
+        "physical_network": "",
+        "network_type": ""
+    },
+    "image": {
+        "name": "k8s-host-image",
+        "disk_format": "qcow2",
+        "container_format": "bare",
+        "visibility": "public",
+        "local_file_path": "/root/kylin-sp3.qcow2"
+    }
+}
